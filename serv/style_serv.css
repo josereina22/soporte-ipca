@@ -1,0 +1,77 @@
+#contenedor_serv {
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	z-index: 1;
+	top: 0px;
+	left: 0;
+	background-color: #9DE3C9;
+}
+#selec_serv {
+	position: absolute;
+	width: 118px;
+	height: 78px;
+	z-index: 2;
+	left: 21px;
+	top: 214px;
+	background-color: #65aa72;
+	border-radius: 1em;
+	padding: 10px;
+	box-shadow: black 0.5em 0.5em 0.3em;
+}
+#vehiculo {
+	position: absolute;
+	width: 610px;
+	height: 280px;
+	z-index: 3;
+	left: 186px;
+	top: 22px;
+	background-image: url(imagen/servicio.gif);
+	/*visibility: visible;*/
+}
+#sede {
+	position: absolute;
+	width: 610px;
+	height: 280px;
+	z-index: 4;
+	left: 186px;
+	top: 22;
+	background-image: url(imagen/servicio.gif);
+	/*visibility: visible;*/
+}
+#titulo_vehiculo {
+	position: absolute;
+	width: 215px;
+	height: 27px;
+	z-index: 5;
+	left: 209px;
+	top: 13px;
+}
+#titulo_sede {
+	position: absolute;
+	width: 200px;
+	height: 25px;
+	z-index: 6;
+	left: 209px;
+	top: 13px;
+}
+
+#det_vehiculo {
+	position: absolute;
+	width: 549px;
+	height: 140px;
+	z-index: 7;
+	left: 207px;
+	top: 331px;
+}
+body,td,th {
+	font-size: 16px;
+}
+#seleccione_op {
+	position: absolute;
+	width: 143px;
+	height: 26px;
+	z-index: 8;
+	left: 9px;
+	top: 186px;
+}
